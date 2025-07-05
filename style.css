@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'vazir'IRANYekan;
+}
+
+@font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 300;
+    src: url("fonts/IRANYekanXFaNum-Light.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/IRANYekanXFaNum-Regular.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 500;
+    src: url("fonts/IRANYekanXFaNum-Medium.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: 600;
+    src: url("fonts/IRANYekanXFaNum-DemiBold.woff2") format("woff2");
+  }
+  
+  @font-face {
+    font-family: "IRANYekan";
+    font-style: normal;
+    font-weight: bold;
+    src: url("fonts/IRANYekanXFaNum-Bold.woff2") format("woff2");
+  }
+.animated{
+    transform:translateY(30px);
+    opacity: 0;
+    animation:slide-in-y 3s ease forwards;
+    
+}
+@keyframes slide-in-y{
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.animatedx{
+    transform:translatex(30px);
+    opacity: 0;
+    animation:slide-in 3s ease forwards;
+    
+}
+@keyframes slide-in{
+   from{
+        transform: translatex(100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+.animatedleft{
+    animation:slide-in-left 1s ease-out forwards;
+    
+}
+@keyframes slide-in-left{
+    from{
+        transform: translatex(-100%);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.carousel-inner .card p{
+    font-size: 12px;
+    line-height: 1;
+}
+.carousel-inner .card h5{
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+}
+
+.cardpost:hover{
+  
+  box-shadow: 0 20px 30px 0 rgba(0, 0, 0,0.2);
+  
+}
+nav a:hover{
+    color: black;
+}
+nav{
+    background-color:rgba(255,255,255,0.8);
+}
+header{
+    background-image: url(./img/64.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:auto;
+    width: auto;
+}
+section{
+    margin-top:90px;
+}
+.card-img-top{
+    height: 150px;
+}
+.carousel-item p{
+    font-size: 14px;    
+}
+.about-cilinic{
+    border-right: solid 2px #99b9d8;
+
+}
+.about-cilinic h4{
+    color: #4c6fb4;
+}
+
+
+.social-icons{
+    font-size:1rem;
+}
+.sicial{
+    font-size:15px;
+    padding: 0 1rem;
+}
+.page-footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size:12px;
+}
+.page-footer a:hover{
+    color: #828282;
+    font-size: 15px;
+}
+.Ehbal-lahori{
+    text-align: center;
+    padding: 1rem 0;
+}
+.f-d{
+    border: none;
+    border-left: solid 2px #99b9d8;
+}
+.last-para{
+    text-align: center;
+    font-size: 12px;
+    color: #828282;
+
+}
