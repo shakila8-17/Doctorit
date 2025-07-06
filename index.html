@@ -15,6 +15,15 @@
         body{
             font-family:'Vazirmatn',sans-serif;
         }
+        header{
+            position:relative;
+        }
+         header .layer{
+               position:absolute;
+             height:100%;
+             width:100%;
+             background-color:#eee;
+            }
         .form-control{
             width:auto;
             height: 3rem;
@@ -47,11 +56,17 @@
             footer h3{
                 font-size:14px;
                 margin-bottom:3px;
-        }
+            }
+            .img-about{
+                disply:none;
+            }
+           
+            
     </style>
 </head>
 <body>
     <header class="header pt-3" >
+        <div class="layer"></div>
         <nav class="navbar navbar-expand-lg mx-5 mb-5 ">
         <div class="container-fluid row animatedx">
             <a class="navbar-brand col-sm-6" href="#">
@@ -85,11 +100,12 @@
         </div>
         </nav>
         <div class="main" id="home" style="justify-self: end;">
-        <div class="animated ps-5 pb-5 me-5 ">  
+        <div class="animated ps-5 pb-5 me-5 ">
+            <div class="matn1">
             <h2 class="mb-3">ویزیت داکتر بدون صف و رفت و آمد</h2>
             <p>➖مشاوره آنلاین نوبت دهی سریع و خدمات پزشکی در خانه</p>
             <p>➖24ساعته برای همه افغان ها</p>
-            
+            </div>
             <form action=""class="bg-light px-3 py-3 mt-5" style="width: auto; text-align: center;" >
                 <div class="row ">
                     <input type="text" name="name" id="name" placeholder="اسم" class="form-control col-12 col-sm-6 mx-auto">
@@ -144,7 +160,7 @@
                 <p class="animated">کلینیک ما بهره گیری از تیم پزشکی متخصص , تجهیزات پیشرفته و سیستم نوبت دهی انلاین , خدمات صحی را با کیفیت
                     و دقت بالا برای شما فراهم میسازد.اولویت ما رضابت و راحتی بیماران است.
                 </p>
-                <img src="./img/43.png" alt="statskop" class="animated" style="width: 250px; z-index: -1; position: absolute; top:160px;left: 12px;">
+                <img src="./img/43.png" alt="statskop" class="animated img-about" style="width: 250px; z-index: -1; position: absolute; top:160px;left: 12px;">
             </div>
             <div class="col-12 col-sm-6">
                 <div class="d-flex mt-5">
