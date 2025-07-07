@@ -2,43 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'vazir'IRANYekan;
 }
-
-@font-face {
-    font-family: "IRANYekan";
-    font-style: normal;
-    font-weight: 300;
-    src: url("fonts/IRANYekanXFaNum-Light.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "IRANYekan";
-    font-style: normal;
-    font-weight: normal;
-    src: url("fonts/IRANYekanXFaNum-Regular.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "IRANYekan";
-    font-style: normal;
-    font-weight: 500;
-    src: url("fonts/IRANYekanXFaNum-Medium.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "IRANYekan";
-    font-style: normal;
-    font-weight: 600;
-    src: url("fonts/IRANYekanXFaNum-DemiBold.woff2") format("woff2");
-  }
-  
-  @font-face {
-    font-family: "IRANYekan";
-    font-style: normal;
-    font-weight: bold;
-    src: url("fonts/IRANYekanXFaNum-Bold.woff2") format("woff2");
-  }
 .animated{
     transform:translateY(30px);
     opacity: 0;
@@ -108,7 +72,7 @@ header{
     background-image: url(./img/64.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position:top center;
     height:auto;
     width: auto;
 }
@@ -129,7 +93,6 @@ section{
     color: #4c6fb4;
 }
 
-
 .social-icons{
     font-size:1rem;
 }
@@ -145,10 +108,6 @@ section{
 .page-footer a:hover{
     color: #828282;
     font-size: 15px;
-}
-.Ehbal-lahori{
-    text-align: center;
-    padding: 1rem 0;
 }
 .f-d{
     border: none;
